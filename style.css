@@ -1,0 +1,205 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7ebdb;
+      color: #3d1f00;
+    }
+
+    .navbar {
+      background-color: #f7ebdb;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #3d1f00;
+    }
+
+    .nav-links a {
+      margin: 0 8px;
+      color: #3d1f00;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    .menu-btn, .login-btn, .cart-btn {
+      background: none;
+      border: none;
+      color: #3d1f00;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .logo {
+      height: 30px;
+    }
+
+    .promo-banner {
+      background-color: #ffa800;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .promo-banner h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .promo-btn {
+      margin-top: 10px;
+      background-color: #8b0000;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .offers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .offer-card {
+      background-color: white;
+      width: 220px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .offer-card img {
+      width: 100%;
+    }
+
+    .offer-info {
+      padding: 10px;
+    }
+
+    .offer-info h3 {
+      margin: 8px 0 4px;
+    }
+
+    .offer-info button {
+      border: 2px solid #8b0000;
+      background: white;
+      color: #8b0000;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .bestsellers {
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    .bestseller-items {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .bestseller-items .item {
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .bestseller-items .active {
+      color: #ff0000;
+      font-weight: bold;
+    }
+
+    .site-footer {
+      background-color: #300000;
+      color: #e6c697;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    .footer-links {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #e6c697;
+      text-decoration: none;
+      margin: 0 5px;
+      font-size: 14px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-divider {
+      border: none;
+      border-top: 1px solid #4a1f1f;
+      margin: 15px auto;
+      width: 100%;
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+      text-align: center;
+      gap: 10px;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+      flex: 1 1 200px;
+    }
+
+    .footer-left p {
+      margin: 0;
+      color: #e6c697;
+      font-size: 13px;
+    }
+
+    .footer-center strong {
+      font-size: 18px;
+      color: #e6c697;
+      font-weight: bold;
+    }
+
+    .footer-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-icon {
+      width: 22px;
+      height: 22px;
+      object-fit: contain;
+    }
+
+    .lang-switch {
+      color: #e6c697;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .cookie-preferences {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #e6c697;
+      font-size: 14px;
+    }

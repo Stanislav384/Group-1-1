@@ -1,0 +1,272 @@
+body {
+  background-color: #f5e8d0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #3b1e0f;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcefdc;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.top-nav .nav-left a,
+.top-nav .nav-right button {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #3b1e0f;
+  font-weight: bold;
+}
+
+.top-nav .logo {
+  height: 50px;
+}
+
+.nav-left a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.category-bar {
+  display: flex;
+  overflow-x: auto;
+  background-color: #fcefdc;
+  padding: 10px 15px;
+  gap: 15px;
+  border-bottom: 1px solid #e0cdbb;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #3b1e0f;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 60px;
+  flex-shrink: 0;
+  padding: 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.category-item img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 4px;
+}
+
+.category-item:hover {
+  background-color: #ffe8c4;
+}
+
+.category-item.active {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 40px 0 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcefdc;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+.signup-btn {
+  background-color: #d42c00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #bb1f00;
+}
+
+.cart-btn {
+  background-color: #4b1e0c;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.menu-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffeacc;
+}
+
+.menu-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-card {
+  background-color: #fff2dd;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 20px 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+.menu-card img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.menu-card p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c1708;
+}
+.category-item.active {
+  background-color: #fdd9a0;
+}
+.site-footer {
+  background-color: #330000;
+  color: #f9e6d2;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #d6bfa4;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #5a2d2d;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+}
+
+.footer-center strong {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fbe8cd;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(90%);
+}
+
+.lang-switch {
+  color: #fbe8cd;
+  font-weight: bold;
+}
+
+.cookie-preferences {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fbe8cd;
+}
