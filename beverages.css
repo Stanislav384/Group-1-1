@@ -16,7 +16,7 @@ body {
 }
 
 .top-nav .nav-left a,
-.top-nav .nav-right button {
+.top-nav {
   margin-right: 15px;
   text-decoration: none;
   color: #3b1e0f;
